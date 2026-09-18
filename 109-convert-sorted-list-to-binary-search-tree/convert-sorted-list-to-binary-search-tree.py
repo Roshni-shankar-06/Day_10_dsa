@@ -7,9 +7,6 @@ class Solution:
             head = head.next
             
         # Step 2: Recursively build the BST from the array
-        def build_bst(left: int, right: int) -> Optional[TreeNode]:
-            if left > right:
-                return None
-            
+      
        
          
