@@ -8,8 +8,7 @@ class Solution:
                 while prev.right:
                     prev = prev.right
                 
-                # Rewire the connections
-                prev.right = curr.right
+              
                
             
         
