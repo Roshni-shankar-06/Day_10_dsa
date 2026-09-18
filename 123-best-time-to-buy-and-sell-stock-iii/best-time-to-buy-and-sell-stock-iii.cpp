@@ -9,8 +9,5 @@ class Solution {
     for (const int price : prices) {
       sellTwo = max(sellTwo, holdTwo + price);
       holdTwo = max(holdTwo, sellOne - price);
-      sellOne = max(sellOne, holdOne + price);
-      holdOne = max(holdOne, -price);
-    }
-
+    
    
