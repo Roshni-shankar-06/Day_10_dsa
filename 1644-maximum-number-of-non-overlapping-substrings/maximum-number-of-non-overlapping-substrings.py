@@ -32,12 +32,4 @@ class Solution:
         # Step 3: Sort intervals by their end index (Greedy Interval Scheduling)
         intervals.sort(key=lambda x: x[1])
         
-        ans = []
-        prev_end = -1
-        for start, end in intervals:
-            # Non-overlapping interval found
-            if start > prev_end:
-                ans.append(s[start:end+1])
-                prev_end = end
-            # If it overlaps but ends earlier, it's nested; replace the last one to minimize length
-      
+  
