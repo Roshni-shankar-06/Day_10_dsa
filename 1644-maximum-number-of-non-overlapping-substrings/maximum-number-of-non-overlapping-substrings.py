@@ -26,10 +26,6 @@ class Solution:
         for c in set(s):
             start = first[c]
             end = check_valid_substring(start)
-            if end != -1:
-                intervals.append((start, end))
-                
-        # Step 3: Sort intervals by their end index (Greedy Interval Scheduling)
-        intervals.sort(key=lambda x: x[1])
+       
         
   
