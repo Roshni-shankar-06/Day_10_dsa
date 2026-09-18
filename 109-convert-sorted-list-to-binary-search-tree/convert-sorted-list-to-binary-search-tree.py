@@ -16,9 +16,4 @@ class Solution:
             root = TreeNode(values[mid])
             
             # Recursively build left and right subtrees
-            root.left = build_bst(left, mid - 1)
-            root.right = build_bst(mid + 1, right)
-            
-            return root
-            
-        return build_bst(0, len(values) - 1)
+         
