@@ -9,9 +9,4 @@ class Solution:
             # Include the current node in the path
             path.append(node.val)
             
-            # Check if it's a leaf node and the path sum matches targetSum
-            if not node.left and not node.right and current_sum == node.val:
-                result.append(list(path)) # Append a copy of the path
-         
-            # Backtrack: remove the current node before moving up the tree
-        
+           
