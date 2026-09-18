@@ -22,10 +22,7 @@ class Solution:
             return end
 
         # Step 2: Generate all valid candidate intervals
-        intervals = []
-        for c in set(s):
-            start = first[c]
-            end = check_valid_substring(start)
+       
        
         
   
