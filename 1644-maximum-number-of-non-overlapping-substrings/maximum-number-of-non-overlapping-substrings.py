@@ -14,15 +14,6 @@ class Solution:
             i = start
             while i <= end:
                 # If a character inside has an earlier start, this interval is invalid
-                if first[s[i]] < start:
-                    return -1
-                # Expand the end boundary to include all occurrences of the inner character
-                end = max(end, last[s[i]])
-                i += 1
-            return end
-
-        # Step 2: Generate all valid candidate intervals
-       
-       
+              
         
   
