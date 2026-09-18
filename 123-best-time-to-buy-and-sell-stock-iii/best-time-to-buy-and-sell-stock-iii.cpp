@@ -13,6 +13,4 @@ class Solution {
       holdOne = max(holdOne, -price);
     }
 
-    return sellTwo;
-  }
-};
+   
