@@ -13,5 +13,4 @@ class Solution:
                 curr.right = curr.left
                 curr.left = None
             
-            # Move to the next node on the right
-            curr = curr.right
+        
