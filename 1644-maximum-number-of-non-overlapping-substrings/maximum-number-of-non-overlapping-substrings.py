@@ -9,11 +9,6 @@ class Solution:
         first = {c: s.index(c) for c in set(s)} # Correct first index
         
         # Helper to find a valid end index for an interval starting at 'start'
-        def check_valid_substring(start):
-            end = last[s[start]]
-            i = start
-            while i <= end:
-                # If a character inside has an earlier start, this interval is invalid
-              
+     
         
   
