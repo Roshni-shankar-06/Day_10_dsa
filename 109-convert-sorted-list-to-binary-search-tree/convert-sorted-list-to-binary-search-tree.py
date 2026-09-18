@@ -11,9 +11,5 @@ class Solution:
             if left > right:
                 return None
             
-            # Choose the middle element as the root to maintain balance
-            mid = (left + right) // 2
-            root = TreeNode(values[mid])
-            
-            # Recursively build left and right subtrees
+       
          
