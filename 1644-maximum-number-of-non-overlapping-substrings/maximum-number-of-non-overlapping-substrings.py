@@ -40,8 +40,4 @@ class Solution:
                 ans.append(s[start:end+1])
                 prev_end = end
             # If it overlaps but ends earlier, it's nested; replace the last one to minimize length
-            elif end <= prev_end:
-                ans[-1] = s[start:end+1]
-                prev_end = end
-                
-        return ans
+      
