@@ -7,7 +7,6 @@ class Solution {
     int holdOne = INT_MIN;
 
     for (const int price : prices) {
-      sellTwo = max(sellTwo, holdTwo + price);
-      holdTwo = max(holdTwo, sellOne - price);
-    
+     
+   
    
