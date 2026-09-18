@@ -12,10 +12,6 @@ class Solution:
             # Check if it's a leaf node and the path sum matches targetSum
             if not node.left and not node.right and current_sum == node.val:
                 result.append(list(path)) # Append a copy of the path
-            else:
-                # Continue exploring left and right subtrees
-                dfs(node.left, current_sum - node.val, path)
-                dfs(node.right, current_sum - node.val, path)
-            
+         
             # Backtrack: remove the current node before moving up the tree
         
