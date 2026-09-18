@@ -5,8 +5,7 @@ class Solution:
             if curr.left:
                 # Find the rightmost node of the left subtree
                 prev = curr.left
-                while prev.right:
-                    prev = prev.right
+             
                 
               
                
