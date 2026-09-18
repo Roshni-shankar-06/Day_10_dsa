@@ -10,7 +10,6 @@ class Solution:
                 
                 # Rewire the connections
                 prev.right = curr.right
-                curr.right = curr.left
-                curr.left = None
+               
             
         
