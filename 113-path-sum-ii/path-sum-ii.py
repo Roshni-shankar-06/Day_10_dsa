@@ -18,7 +18,4 @@ class Solution:
                 dfs(node.right, current_sum - node.val, path)
             
             # Backtrack: remove the current node before moving up the tree
-            path.pop()
-            
-        dfs(root, targetSum, [])
-        return result
+        
